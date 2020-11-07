@@ -1,0 +1,6 @@
+conda create -n pls python=3.7
+conda activate pls
+pip install ipykernel
+pip install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com gensim jieba sklearn keras matplotlib pandas
+pip uninstall h5py
+pip install h5py==2.10.0
